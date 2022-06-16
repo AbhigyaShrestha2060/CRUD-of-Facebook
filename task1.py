@@ -174,6 +174,8 @@ def edit():
     global editor
     editor=Toplevel()
     editor.title('Editor')
+    editor.iconbitmap('facebook.ico')
+
     
     editor.config(bg='#4267B2')
     conn=sqlite3.connect('Facebook.db')
